@@ -1,0 +1,5 @@
+a=open("testfile.txt","a")
+a.write("This is a new text that is going to be added in testfile.txt")
+a.close()
+a=open("testfile.txt","r")
+print(a.read())
